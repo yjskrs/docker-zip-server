@@ -6,7 +6,7 @@ Uses ubuntu server image as its base and has php installed.
 
 ## Usage
 
-To set up, copy the zip files to `public_html/kits`.
+To set up, create an empty directory `public_html/kits` and copy the zip files into it.
 
 Then run the following commands:
 
