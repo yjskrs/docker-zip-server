@@ -21,4 +21,4 @@ sudo docker build -t <tag-name> .
 sudo docker run -dp <local-port>:80 <tag-name>
 ```
 
-Your zip files will be hosted on `localhost:<local-port>` in a few moments.
+Your zip files will be hosted on `localhost:<local-port>` in a few moments (can take quite a while if the zip files are large).
