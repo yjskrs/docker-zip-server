@@ -8,6 +8,12 @@ Uses ubuntu server image as its base and has php installed.
 
 To set up, create an empty directory `public_html/kits` and copy the zip files into it.
 
+Alternatively, change the second line in the Dockerfile:
+
+`COPY ./public_html/ /var/www/html/`
+
+by replacing `./public_html/` with the path to the directory containing the phishing kits.
+
 Then run the following commands:
 
 ```
